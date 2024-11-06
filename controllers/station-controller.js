@@ -1,8 +1,8 @@
 
 import jwt from 'jsonwebtoken'
-import Stations from '../models/Stations';
+import Stations from '../models/Stations.js';
 import mongoose from 'mongoose';
-import Admin from '../models/Admin';
+import Admin from '../models/Admin.js';
 
 
 

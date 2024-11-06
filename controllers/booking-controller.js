@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import Bookings from "../models/Bookings";
-import Stations from "../models/Stations";
+import Bookings from "../models/Bookings.js";
+import Stations from "../models/Stations.js";
 import User from "../models/User";
 
 export const newBooking = async (req, res, next) => {
