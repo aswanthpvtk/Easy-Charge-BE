@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import express, { Router } from 'express';
 import dotenv from 'dotenv';
-import userRouter from './routes/user-routes';
+import userRouter from './routes/user-routes.js';
 import adminRouter from './routes/admin-routes';
 import stationRouter from './routes/station-routes';
 import bookingRouter from './routes/booking-routes'
