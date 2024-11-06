@@ -37,13 +37,3 @@ mongoose.connect(`mongodb+srv://paswanthvtk:${process.env.MONGODB_PASSWORD}@clus
 ).catch((e)=>console.log(e));
 
 
-// Start the server
-// app.listen(5000, () => {
-//     console.log(`Connected to localhost on port 5000`);
-// });
-
-
-// OEEWSXmtqvaOU9Mw
-// OEEWSXmtqvaOU9Mw
-// OEEWSXmtqvaOU9Mw
-// OEEWSXmtqvaOU9Mw
