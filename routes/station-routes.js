@@ -1,5 +1,5 @@
 import express from 'express';
-import { addStation, getAllStation, getStationById } from '../controllers/station-controller';
+import { addStation, getAllStation, getStationById } from '../controllers/station-controller.js';
 
 const stationRouter=express.Router();
 
